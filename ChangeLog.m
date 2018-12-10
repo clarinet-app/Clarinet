@@ -25,6 +25,7 @@
 %  + Main menu with app preferences
 %  + Load epoch processors and feature extractors from a shared folder
 %  + Refactored file import functions into "parsers" package
+%  + Plot updated when user changes cmbSplitParam
 %
 % _*Version 2.1*            created on 2018-12-04 by Luca Della Santina_
 %
