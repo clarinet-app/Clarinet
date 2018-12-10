@@ -17,7 +17,7 @@
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 % This software is released under the terms of the GPL v3 software license
 %
-classdef SymphonyV2Parser < SymphonyParser
+classdef SymphonyV2Parser < parsers.SymphonyParser
 
     % experiement (1)
     %   |__devices (1)
@@ -37,7 +37,7 @@ classdef SymphonyV2Parser < SymphonyParser
     methods
 
         function obj = SymphonyV2Parser(fname)
-            obj = obj@SymphonyParser(fname);
+            obj = obj@parsers.SymphonyParser(fname);
         end
 
         function obj = parse(obj)

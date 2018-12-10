@@ -20,6 +20,12 @@
 %
 % *Change log*
 %
+% _*Version 2.2*            created on 2018-12-09 by Luca Della Santina_
+%
+%  + Main menu with app preferences
+%  + Load epoch processors and feature extractors from a shared folder
+%  + Refactored file import functions into "parsers" package
+%
 % _*Version 2.1*            created on 2018-12-04 by Luca Della Santina_
 %
 %  + Epoch splitting logic now codified as tree

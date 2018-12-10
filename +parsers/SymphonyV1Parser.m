@@ -17,7 +17,7 @@
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 % This software is released under the terms of the GPL v3 software license
 %
-classdef SymphonyV1Parser < SymphonyParser
+classdef SymphonyV1Parser < parsers.SymphonyParser
 
     % cell-name.h5
     %   |_ <recorded_by>-<id> (1)
@@ -35,7 +35,7 @@ classdef SymphonyV1Parser < SymphonyParser
     methods
 
         function obj = SymphonyV1Parser(fname)
-            obj = obj@SymphonyParser(fname);
+            obj = obj@parsers.SymphonyParser(fname);
         end
 
         function obj = parse(obj)
@@ -115,7 +115,7 @@ classdef SymphonyV1Parser < SymphonyParser
             if ischar(h5group)
                 error('cannot accept character as epoch group for symphony 1 parser');
             end
-            map = mapAttributes@SymphonyParser(obj, h5group, map);
+            map = mapAttributes@parsers.SymphonyParser(obj, h5group, map);
             keys = map.keys;
             for i = 1 : numel(keys)
                 k = keys{i};
