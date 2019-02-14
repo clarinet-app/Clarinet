@@ -20,7 +20,7 @@
 %
 % *Change log*
 %
-% _*Version 2.2*            created on 2019-02-13 by Luca Della Santina_
+% _*Version 2.3*            created on 2019-02-13 by Luca Della Santina_
 %
 %  + Main menu with app preferences
 %  + Load epoch processors and feature extractors from a shared folder
