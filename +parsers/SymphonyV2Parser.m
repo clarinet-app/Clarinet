@@ -37,6 +37,7 @@ classdef SymphonyV2Parser < parsers.SymphonyParser
     methods
 
         function obj = SymphonyV2Parser(fname)
+            import ch.systemsx.cisd.hdf5.*;
             obj = obj@parsers.SymphonyParser(fname);
         end
 

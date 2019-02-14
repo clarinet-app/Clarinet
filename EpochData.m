@@ -30,7 +30,7 @@ classdef EpochData < KeyValueEntity
 
     properties (Hidden)
         dataLinks             % Map with keys as Amplifier device and values as responses
-        responseHandle        % amplifere response call back argumet as stream name
+        responseHandle        % amplifier response call back argumet as stream name
         derivedAttributes     % spikes and other epoch specific pre-processed data
         excluded              % used to delete the epochs
     end

@@ -20,12 +20,13 @@
 %
 % *Change log*
 %
-% _*Version 2.2*            created on 2018-12-09 by Luca Della Santina_
+% _*Version 2.2*            created on 2019-02-13 by Luca Della Santina_
 %
 %  + Main menu with app preferences
 %  + Load epoch processors and feature extractors from a shared folder
 %  + Refactored file import functions into "parsers" package
 %  + Plot updated when user changes cmbSplitParam
+%  + In features mode, export allows saving epochs of selected feature
 %
 % _*Version 2.1*            created on 2018-12-04 by Luca Della Santina_
 %
