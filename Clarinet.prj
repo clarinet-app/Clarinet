@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3096316834" file="/home/luca/Dropbox/MATLAB scripts/Clarinet/Clarinet.prj" location="/home/luca/Dropbox/MATLAB scripts/Clarinet" name="Clarinet" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="278333235" file="/home/luca/Dropbox/MATLAB scripts/Clarinet/Clarinet.prj" location="/home/luca/Dropbox/MATLAB scripts/Clarinet" name="Clarinet" target="target.mlapps" target-name="Package App">
     <param.appname>Clarinet</param.appname>
     <param.authnamewatermark>Luca Della Santina</param.authnamewatermark>
     <param.email>luca.dellasantina@gmail.com</param.email>
@@ -10,10 +10,10 @@
       <file>${PROJECT_ROOT}/Clarinet_resources/icon_24.png</file>
       <file>${PROJECT_ROOT}/Clarinet_resources/icon_16.png</file>
     </param.icons>
-    <param.summary>Elecrophysiology time series data analysis</param.summary>
-    <param.description>Copyright 2018-2019 Luca Della Santina</param.description>
-    <param.screenshot>/tmp/tp41f3c560_0346_4ea5_971c_e8786aea212a.png</param.screenshot>
-    <param.version>2.4</param.version>
+    <param.summary>Elecrophysiology data analysis</param.summary>
+    <param.description>Copyright 2018-2020 Luca Della Santina</param.description>
+    <param.screenshot>/tmp/tpb2bd3f08_a115_465b_b412_d92f09fe1d87.png</param.screenshot>
+    <param.version>2.5</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>

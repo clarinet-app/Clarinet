@@ -17,8 +17,16 @@
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 % This software is released under the terms of the GPL v3 software license
 %
+% TODO: Add "New Project" button to start a blank project
+% TODO: But if multiple amplifier exists only the first one can be selected
+% TODO: Replace app.Lamp with progress dialogs
 %
 % *Change log*
+%
+% _*Version 2.5*            created on 2020-01-10 by Luca Della Santina_
+%
+%  + New Project button
+%  + Removed Lamp and Log UI component, using progress dialogs instead
 %
 % _*Version 2.4*            created on 2020-01-10 by Luca Della Santina_
 %
