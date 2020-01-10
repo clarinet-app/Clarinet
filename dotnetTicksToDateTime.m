@@ -1,5 +1,5 @@
-%% Clarinet: Electrophysiology time series data analysis
-% Copyright (C) 2018 Luca Della Santina
+%% Clarinet: Electrophysiology time series analysis
+% Copyright (C) 2018-2020 Luca Della Santina
 %
 %  This file is part of Clarinet
 %
@@ -17,6 +17,7 @@
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 % This software is released under the terms of the GPL v3 software license
 %
+
 function dt = dotnetTicksToDateTime(datetimeticks)
 dt = datetime(datenum(double(datetimeticks) * 1e-7/86400 + 367), 'ConvertFrom', 'datenum');
 end
